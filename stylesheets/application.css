@@ -47,8 +47,15 @@ h4, .wiki h3 {
   color: #484848
 }
 
+#main-menu li a {
+  font-weight: normal;
+  margin: 0;
+  padding: 3px 8px;
+}
+
 #main-menu li a.selected, #main-menu li a.selected:hover {
-  color: #333
+  font-weight: bold;
+  color: #333;
 }
 
 /***** Links *****/
