@@ -217,7 +217,8 @@ tr.priority-1 a {
 }
 
 .box {
-  color: #222
+  color: #222;
+  border-radius: 3px;
 }
 
 .contextual {
@@ -235,6 +236,10 @@ textarea.wiki-edit {
   font-family: "Osaka-Mono", "MS Gothic", sans-serif;
   letter-spacing: normal;
   line-height: 130%;
+}
+
+div.issue {
+  border-radius: 3px;
 }
 
 div.issue div.subject p {
