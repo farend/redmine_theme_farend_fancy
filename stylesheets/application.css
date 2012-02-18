@@ -1,0 +1,126 @@
+@import url(../../../stylesheets/application.css);
+
+/*
+ * color: #2A5685 -> #0c4d7f;
+ *
+ * color: #444 -> #222;
+ * color: #555 -> #333;
+ * color: #484848 -> #222;
+ * color: #666 -> #484848;
+ * color: #777 -> #484848;
+ * color: #808080 -> #484848;
+ * color: #999 -> #666;
+ *
+ * opacity: 0.4 -> 0.7;
+ *
+ */
+
+body {font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif; color:#222;}
+
+h1, h2, h3, h4 {font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;}
+h1 {font-size: 22px;}
+h2, .wiki h1 {font-size: 18px; color: #222;}
+h3, .wiki h2 {font-size: 14px; color: #222;}
+h4, .wiki h3 {font-size: 13px; color: #222;}
+
+#main-menu li a.selected, #main-menu li a.selected:hover {color:#333;}
+
+#sidebar h3{color: #484848;}
+
+/***** Links *****/
+a, a:link, a:visited {color: #0c4d7f;}
+
+a.issue.closed, a.issue.closed:link, a.issue.closed:visited {color: #666;}
+
+/***** Tables *****/
+table.list th {padding: 4px 2px;}
+
+tr.changeset td.author { text-align: center; width: 15%; }
+tr.changeset td.committed_on { text-align: center; width: 15%; }
+
+tr.version.closed, tr.version.closed a { color: #666; }
+
+/* assinged to me, created by me */
+tr.assigned-to-me td.assigned_to, tr.created-by-me td.author { font-weight: bold; font-size: 11px; }
+
+/* overdue */
+tr.odd.overdue { background: #ffd8b2; }
+tr.even.overdue { background: #ffe5cc; }
+tr.odd.overdue td, tr.even.overdue td { border-color: #fcc; }
+
+/* Issues grid styles by priorities (provided by Wynn Netherland) */
+/* table.list tr.issue a { color: #484848; } */
+
+tr.odd.priority-5, table.list tbody tr.odd.priority-5:hover { color: #900; font-weight: bold; }
+tr.odd.priority-5 { background: #ffc4c4; }
+tr.even.priority-5, table.list tbody tr.even.priority-5:hover { color: #900; font-weight: bold; }
+tr.even.priority-5 { background: #ffd4d4; }
+tr.priority-5 a, tr.priority-5:hover a { color: #900; }
+tr.odd.priority-5 td, tr.even.priority-5 td { border-color: #ffb4b4; }
+
+tr.odd.priority-4, table.list tbody tr.odd.priority-4:hover { color: #900; }
+tr.odd.priority-4 { background: #ffc4c4; }
+tr.even.priority-4, table.list tbody tr.even.priority-4:hover { color: #900; }
+tr.even.priority-4 { background: #ffd4d4; }
+tr.priority-4 a { color: #900; }
+tr.odd.priority-4 td, tr.even.priority-4 td { border-color: #ffb4b4; }
+
+tr.odd.priority-3, table.list tbody tr.odd.priority-3:hover { color: #900; }
+tr.odd.priority-3 { background: #fee; }
+tr.even.priority-3, table.list tbody tr.even.priority-3:hover { color: #900; }
+tr.even.priority-3 { background: #fff2f2; }
+tr.priority-3 a { color: #900; }
+tr.odd.priority-3 td, tr.even.priority-3 td { border-color: #fcc; }
+
+tr.odd.priority-1, table.list tbody tr.odd.priority-1:hover { color: #559; }
+tr.odd.priority-1 { background: #eaf7ff; }
+tr.even.priority-1, table.list tbody tr.even.priority-1:hover { color: #559; }
+tr.even.priority-1 { background: #f2faff; }
+tr.priority-1 a { color: #559; }
+tr.odd.priority-1 td, tr.even.priority-1 td { border-color: #add7f3; }
+
+#watchers a.delete {opacity: 0.7;}
+
+.box{ color:#222; }
+
+.contextual { font-size: 12px;}
+
+/* テキストボックスで等幅フォントを使用 */
+input[type="text"] { font-family: "Osaka-Mono", "MS Gothic", sans-serif; font-size: 100%;}
+textarea.wiki-edit {font-family: "Osaka-Mono", "MS Gothic", sans-serif; letter-spacing: normal; line-height: 130%;}
+
+div.issue div.subject p {color: #666;}
+
+.buttons {font-size: 12px;}
+
+div#activity dt .time { color: #484848; }
+
+div#activity dd span.description, #search-results dd span.description { color: #484848; }
+
+table#time-report tbody tr { color: #484848; }
+
+form .attributes { margin-bottom: 8px; }
+form .attributes p { padding-top: 1px; padding-bottom: 2px; }
+div.wiki-page .contextual a {opacity: 0.7}
+
+ul.projects div.root a.project { font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic"; }
+
+p.other-formats { font-size: 12px; color: #484848; }
+
+/***** Tabs *****/
+#content .tabs ul li a { color: #666; }
+
+#content .tabs ul li a.selected { color: #333 }
+
+/***** Wiki *****/
+div.wiki pre {
+    /* farend_basic: preで横スクロールバーを表示させずに折り返す */
+    width:95%;
+    overflow-x: visible;
+    overflow-y: visible;
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -pre-wrap;     /* Opera 4-6 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    white-space: pre-wrap;      /* CSS3 */
+    word-wrap: break-word;      /* IE 5.5+ */
+}
