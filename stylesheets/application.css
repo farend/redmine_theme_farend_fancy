@@ -51,6 +51,7 @@ h4, .wiki h3 {
   font-weight: normal;
   margin: 0;
   padding: 3px 8px;
+  border-radius: 4px 4px 0px 0px;
 }
 
 #main-menu li a.selected, #main-menu li a.selected:hover {
