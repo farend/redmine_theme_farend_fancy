@@ -308,6 +308,20 @@ div.wiki pre {
   word-wrap: break-word; /* IE 5.5+ */
 }
 
+#top-menu a {
+    font-weight: normal;
+}
+
+#top-menu #loggedas {
+    color: #ccc;
+    float: right;
+    margin-right: 0.5em;
+}
+
+#top-menu #loggedas a {
+    font-weight: bold;
+}
+
 #top-menu a.home {
     background-image: url(../images/home.png)
 }
