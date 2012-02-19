@@ -307,3 +307,31 @@ div.wiki pre {
   white-space: pre-wrap; /* CSS3 */
   word-wrap: break-word; /* IE 5.5+ */
 }
+
+#top-menu a.home {
+    background-image: url(../images/home.png)
+}
+
+#top-menu a.my-page {
+    background-image: url(../images/user.png)
+}
+
+#top-menu a.projects {
+    background-image: url(../images/projects.png)
+}
+
+#top-menu a.administration {
+    background-image: url(../images/wrench.png)
+}
+
+#top-menu a.help {
+    background-image: url(../images/help.png)
+}
+
+#top-menu a.home, #top-menu a.my-page, #top-menu a.projects, #top-menu a.administration, #top-menu a.help {
+    background-position: 0% 40%;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
