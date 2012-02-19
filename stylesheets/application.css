@@ -349,3 +349,23 @@ div.wiki pre {
     padding-top: 2px;
     padding-bottom: 3px;
 }
+
+a.atom {
+    background: url(../images/oxygen/application-rss%2Bxml.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 18px;
+}
+
+a.csv {
+    background: url(../images/oxygen/text-csv.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 18px;
+}
+
+a.pdf {
+    background: url(../images/oxygen/application-pdf.png) no-repeat 0px 0px;;
+    padding: 0px 0px 0px 18px;
+}
+
+a.png {
+    background: url(../images/oxygen/image-x-generic.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 18px;
+}
