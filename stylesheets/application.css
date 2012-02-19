@@ -64,6 +64,11 @@ h4, .wiki h3 {
   background-image: url(../images/activities.png)
 }
 
+#main-menu li a.roadmap, #main-menu li a.roadmap:hover {
+  padding-left: 20px;
+  background-image: url(../images/package.png)
+}
+
 #main-menu li a.issues, #main-menu li a.issues:hover {
   padding-left: 20px;
   background-image: url(../images/ticket.png)
@@ -101,7 +106,7 @@ h4, .wiki h3 {
 
 #main-menu li a.files, #main-menu li a.files:hover {
   padding: 5px 4px 2px 20px; 
-  background-image: url(../images/package.png)
+  background-image: url(../images/oxygen/package-x-generic.png)
 }
 
 #main-menu li a.repository, #main-menu li a.repository:hover {
