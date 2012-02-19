@@ -308,6 +308,11 @@ div.wiki pre {
   word-wrap: break-word; /* IE 5.5+ */
 }
 
+/***** My page layout *****/
+.mypage-box {
+  color:#222;
+}
+
 #top-menu a {
     font-weight: normal;
 }
