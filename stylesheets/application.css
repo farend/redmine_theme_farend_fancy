@@ -47,17 +47,69 @@ h4, .wiki h3 {
   color: #484848
 }
 
-#main-menu li a {
+#main-menu li a, #main-menu li a:hover, #main-menu li a:active, #main-menu li a.selected, #main-menu li a.selected:hover {
+  padding: 5px 4px 2px 4px; 
+  background-position: 2px 50%;
+  background-repeat: no-repeat;
   font-weight: normal;
-  margin: 0;
-  padding: 3px 8px;
   border-radius: 3px 3px 0px 0px;
 }
 
-#main-menu li a.selected, #main-menu li a.selected:hover {
-  font-weight: bold;
-  color: #333;
+#main-menu li a.activity, #main-menu li a.activity:hover {
+  padding-left: 20px;
+  background-image: url(../images/activities.png)
 }
+
+#main-menu li a.issues, #main-menu li a.issues:hover {
+  padding-left: 20px;
+  background-image: url(../images/ticket.png)
+}
+
+#main-menu li a.new-issue, #main-menu li a.new-issue:hover {
+  padding-left: 20px;
+  background-image: url(../images/ticket_add.png)
+}
+
+#main-menu li a.gantt, #main-menu li a.gantt:hover {
+  padding-left: 20px;
+  background-image: url(../images/gantt.png)
+}
+
+#main-menu li a.calendar, #main-menu li a.calendar:hover {
+  padding-left: 20px;
+  background-image: url(../images/calendar.png)
+}
+
+#main-menu li a.news, #main-menu li a.news:hover {
+  padding-left: 20px;
+  background-image: url(../images/news.png)
+}
+
+#main-menu li a.documents, #main-menu li a.documents:hover {
+  padding-left: 20px;
+  background-image: url(../images/oxygen/document-multiple.png)
+}
+
+#main-menu li a.wiki, #main-menu li a.wiki:hover {
+  padding-left: 20px;
+  background-image: url(../images/oxygen/document-edit.png)
+}
+
+#main-menu li a.files, #main-menu li a.files:hover {
+  padding: 5px 4px 2px 20px; 
+  background-image: url(../images/package.png)
+}
+
+#main-menu li a.repository, #main-menu li a.repository:hover {
+  padding: 5px 4px 2px 20px; 
+  background-image: url(../images/oxygen/repository.png)
+}
+
+#main-menu li a.settings, #main-menu li a.settings:hover {
+  background-image: url(../images/project_settings.png);
+  padding: 5px 4px 2px 20px; 
+}
+
 
 /***** Links *****/
 
