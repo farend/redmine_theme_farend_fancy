@@ -342,7 +342,23 @@ div.wiki pre {
     background-image: url(../images/help.png)
 }
 
-#top-menu a.home, #top-menu a.my-page, #top-menu a.projects, #top-menu a.administration, #top-menu a.help {
+#top-menu a.my-account {
+    background-image: url(../images/user_preferences.png)
+}
+
+#top-menu a.logout {
+    background-image: url(../images/oxygen/media-playback-stop-8.png)
+}
+
+#top-menu a.login {
+    background-image: url(../images/oxygen/media-playback-start-8.png)
+}
+
+#top-menu a.register {
+    background-image: url(../images/user_add.png)
+}
+
+#top-menu a.home, #top-menu a.my-page, #top-menu a.projects, #top-menu a.administration, #top-menu a.help, #top-menu a.my-account, #top-menu a.logout, #top-menu a.login, #top-menu a.register {
     background-position: 0% 40%;
     background-repeat: no-repeat;
     padding-left: 20px;
