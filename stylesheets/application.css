@@ -385,3 +385,7 @@ a.png {
     background: url(../images/oxygen/image-x-generic.png) no-repeat 0px 0px;
     padding: 0px 0px 0px 18px;
 }
+
+div.issue {
+    background-color: #ffffed; /* HSV(60,5,100) */
+}
