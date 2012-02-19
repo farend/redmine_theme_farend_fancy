@@ -20,6 +20,10 @@ body {
   color: #222;
 }
 
+#main {
+    background-color: #f5faff; /* HSV(212,4,100) */
+}
+
 h1, h2, h3, h4 {
   font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif
 }
