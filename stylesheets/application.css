@@ -437,6 +437,16 @@ a.csv {
     padding: 0px 0px 0px 18px;
 }
 
+a.txt {
+    background: url(../images/oxygen/text-plain.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 18px;
+}
+
+a.html {
+    background: url(../images/oxygen/text-html.png) no-repeat 0px 0px;
+    padding: 0px 0px 0px 18px;
+}
+
 a.pdf {
     background: url(../images/oxygen/application-pdf.png) no-repeat 0px 0px;;
     padding: 0px 0px 0px 18px;
