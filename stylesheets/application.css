@@ -394,3 +394,8 @@ a.png {
 div.issue {
     background-color: #ffffed; /* HSV(60,5,100) */
 }
+
+#login-form table {
+    border-radius: 6px;
+    background-color: #ffefcc; /* HSV(41,20,100) */
+}
