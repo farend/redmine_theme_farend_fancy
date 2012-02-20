@@ -60,6 +60,11 @@ h4, .wiki h3 {
   border-radius: 3px 3px 0px 0px;
 }
 
+#main-menu li a.selected, #main-menu li a.selected:hover {
+  font-weight: bold;
+  color: #222;
+}
+
 #main-menu li a.activity, #main-menu li a.activity:hover {
   padding-left: 24px;
   background-image: url(../images/activities.png)
