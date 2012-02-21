@@ -311,6 +311,7 @@ textarea.wiki-edit {
 }
 
 div.issue {
+  background-color: #ffffe6; /* HSV(60,10,100) */
   border-radius: 3px;
 }
 
@@ -475,10 +476,6 @@ a.pdf {
 a.png {
     background: url(../images/oxygen/image-x-generic.png) no-repeat 0px 0px;
     padding: 0px 0px 0px 18px;
-}
-
-div.issue {
-    background-color: #ffffe6; /* HSV(60,10,100) */
 }
 
 #login-form table {
