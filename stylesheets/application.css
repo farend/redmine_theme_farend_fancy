@@ -319,6 +319,24 @@ div.issue div.subject p {
   color: #666
 }
 
+div#issue_tree .contextual a[href*="/issues/new"] {
+    background-image: url("../images/ticket_add.png");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+div#relations .contextual a {
+    background-image: url("../images/add.png");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
 .buttons {
   font-size: 12px
 }
