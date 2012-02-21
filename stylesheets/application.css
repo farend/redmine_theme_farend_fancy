@@ -485,3 +485,24 @@ div.issue {
     border-radius: 6px;
     background-color: #ffefcc; /* HSV(41,20,100) */
 }
+
+/***** contextual menu *****/
+div.contextual a[href$="/issues"], a[href$="/time_entries"], a[href$="/activity"] {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+div.contextual a[href$="/issues"] {
+    background-image: url("../images/ticket.png");
+}
+
+div.contextual a[href$="/time_entries"] {
+    background-image: url("../images/time.png");
+}
+
+div.contextual a[href$="/activity"] {
+    background-image: url("../images/activities.png");
+}
