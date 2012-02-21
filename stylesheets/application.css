@@ -292,6 +292,11 @@ tr.priority-1 a {
   font-size: 12px
 }
 
+/* submitボタンを押しやすく */
+input[type="submit"] {
+  font-size: 12px;
+}
+
 /* テキストボックスで等幅フォントを使用 */
 
 input[type="text"] {
