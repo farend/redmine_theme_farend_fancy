@@ -533,3 +533,8 @@ div.contextual a[href$="/time_entries"] {
 div.contextual a[href$="/activity"] {
     background-image: url("../images/activities.png");
 }
+
+/***** flash *****/
+div.flash {
+  border-radius: 3px;
+}
