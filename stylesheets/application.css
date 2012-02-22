@@ -416,6 +416,10 @@ div.wiki pre {
   color:#222;
 }
 
+#top-menu {
+  background-color: #2C3957;
+}
+
 #top-menu a {
     font-weight: normal;
 }
