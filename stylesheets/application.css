@@ -21,7 +21,11 @@ body {
 }
 
 #main {
-    background-color: #fafcff; /* HSV(216,2,100) */
+  background-color: #fafcff; /* HSV(216,2,100) */
+}
+
+#header {
+  background-color: #536ca6; /* HSV(222,50,65) */
 }
 
 h1, h2, h3, h4 {
