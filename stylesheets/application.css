@@ -535,6 +535,6 @@ div.contextual a[href$="/activity"] {
 }
 
 /***** flash *****/
-div.flash {
+div.flash, .nodata, .warning {
   border-radius: 3px;
 }
