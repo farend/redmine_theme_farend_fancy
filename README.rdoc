@@ -2,8 +2,10 @@
 
 Redmineの画面を楽しく親しみやすくすることを目的として、farend basicをベースにアイコン表示の追加を中心とした変更を行いました。
 
+サンプル1 (メニュー):
 http://cloud.github.com/downloads/farend/redmine_theme_farend_fancy/farend-fancy-menu.png
 
+サンプル2 (エクスポートアイコン):
 http://cloud.github.com/downloads/farend/redmine_theme_farend_fancy/farend-fancy-export-icons.png
 
 
