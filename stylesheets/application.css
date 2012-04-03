@@ -56,7 +56,7 @@ h4, .wiki h3 {
 }
 
 #main-menu li a, #main-menu li a:hover, #main-menu li a:active, #main-menu li a.selected, #main-menu li a.selected:hover {
-  padding: 5px 8px 4px 8px; 
+  padding: 5px 8px 4px 8px;
   background-position: 6px 50%;
   background-repeat: no-repeat;
   font-size: 11px;
@@ -142,6 +142,10 @@ a, a:link, a:visited {
 
 a.issue.closed, a.issue.closed:link, a.issue.closed:visited {
   color: #666
+}
+
+a#toggle-completed-versions {
+  color:#666;
 }
 
 /***** Tables *****/
@@ -325,6 +329,10 @@ div.issue {
 
 div.issue div.subject p {
   color: #666
+}
+
+div.issue .next-prev-links {
+  color:#666;
 }
 
 div#issue_tree .contextual a[href*="/issues/new"] {
