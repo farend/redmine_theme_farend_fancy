@@ -419,6 +419,10 @@ div.wiki pre {
   word-wrap: break-word; /* IE 5.5+ */
 }
 
+div.wiki img {
+  max-width: 98%
+}
+
 /***** My page layout *****/
 .mypage-box {
   color:#222;
@@ -545,4 +549,8 @@ div.contextual a[href$="/activity"] {
 /***** flash *****/
 div.flash, .nodata, .warning {
   border-radius: 3px;
+}
+
+div.attributes[id="attributes] {
+  border: 1px 0 0 0 0 solid #f00;
 }
