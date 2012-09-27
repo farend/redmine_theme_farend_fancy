@@ -564,3 +564,7 @@ table.cal div.closed {
 table.cal div.overdue {
   background: #ffe5cc
 }
+
+table.cal div.assigned-to-me a {
+  font-weight: bold;
+}
