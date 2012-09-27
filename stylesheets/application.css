@@ -552,6 +552,11 @@ div.flash, .nodata, .warning {
   border-radius: 3px;
 }
 
-div.attributes[id="attributes] {
+div.attributes[id="attributes"] {
   border: 1px 0 0 0 0 solid #f00;
+}
+
+/***** calendar *****/
+table.cal div.closed {
+  text-decoration: line-through;
 }
