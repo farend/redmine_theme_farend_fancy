@@ -560,3 +560,7 @@ div.attributes[id="attributes"] {
 table.cal div.closed {
   text-decoration: line-through;
 }
+
+table.cal div.overdue {
+  background: #ffe5cc
+}
