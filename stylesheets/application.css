@@ -291,6 +291,11 @@ tr.priority-lowest a {
   color: #559
 }
 
+/* チケット一覧で終了したチケットは取り消し線付きで表示 */
+tr.closed td.id, tr.closed td.subject {
+  text-decoration: line-through;
+}
+
 #watchers a.delete {
   opacity: 0.7
 }
