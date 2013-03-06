@@ -572,3 +572,8 @@ table.cal div.overdue {
 table.cal div.assigned-to-me a {
   font-weight: bold;
 }
+
+/***** attachments *****/
+#content .wiki-page + .attachments {
+  border-top: 1px dashed #ccc;
+}
