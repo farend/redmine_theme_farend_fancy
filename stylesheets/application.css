@@ -577,3 +577,6 @@ table.cal div.assigned-to-me a {
 #content .wiki-page + .attachments {
   border-top: 1px dashed #ccc;
 }
+
+/* http://www.redmine.org/issues/11825 */
+html>body .tabular p {overflow:visible;}
