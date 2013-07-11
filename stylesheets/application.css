@@ -111,7 +111,7 @@ h4, .wiki h3 {
 
 #main-menu li a.wiki, #main-menu li a.wiki:hover {
   padding-left: 24px;
-  background-image: url(../images/oxygen/document-edit.png)
+  background-image: url(../images/page_edit.png)
 }
 
 #main-menu li a.boards, #main-menu li a.boards:hover {
