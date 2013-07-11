@@ -114,6 +114,11 @@ h4, .wiki h3 {
   background-image: url(../images/oxygen/document-edit.png)
 }
 
+#main-menu li a.boards, #main-menu li a.boards:hover {
+  padding-left: 24px;
+  background-image: url(../images//comments.png)
+}
+
 #main-menu li a.files, #main-menu li a.files:hover {
   padding-left: 24px;
   background-image: url(../images/oxygen/package-x-generic.png)
