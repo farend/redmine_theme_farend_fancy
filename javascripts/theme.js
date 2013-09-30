@@ -4,8 +4,7 @@ $(function(){
   $("a.help").attr("target","_blank");
   $("div#footer a[href^='http://www.redmine.org/']").attr("target","_blank");
 
-
-  var lang = $("html").attr("lang");
+  var lang = $("a.help").text() == "ヘルプ" ? "ja" : $("html").attr("lang");
   if (lang == "ja") {
     /* 言語が日本語のときはヘルプのリンク先をRedmine.JPの日本語訳にする */
     $("a.help").attr("href", "http://redmine.jp/guide/");
