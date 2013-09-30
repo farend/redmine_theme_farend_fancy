@@ -602,3 +602,29 @@ div.message {
 
 /* http://www.redmine.org/issues/11825 */
 html>body .tabular p {overflow:visible;}
+
+/***** pagination *****/
+p.pagination {
+  font-size: 100%;
+}
+
+p.pagination .current {
+  font-weight: bold;
+}
+
+p.pagination .page {
+  margin-right: 0.1em;
+}
+
+p.pagination .previous {
+  margin-right: 0.3em;
+}
+
+p.pagination .next {
+  margin-left: 0.3em;
+}
+
+p.pagination .items {
+  margin-left: 0.3em;
+  margin-right: 0.6em;
+}
