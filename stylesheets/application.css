@@ -180,6 +180,11 @@ tr.assigned-to-me td.assigned_to, tr.created-by-me td.author {
   font-size: 11px;
 }
 
+td.parent {
+  white-space: normal;
+  text-align: left;
+}
+
 /* overdue */
 
 tr.odd.overdue {
