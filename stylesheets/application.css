@@ -633,3 +633,16 @@ p.pagination .items {
   margin-left: 0.3em;
   margin-right: 0.6em;
 }
+
+/* サイドバーの幅を狭く */
+#sidebar {
+  width: 20%;
+}
+
+#content {
+  width: 77%;
+}
+
+* html #content{
+  width: 77%;
+}
