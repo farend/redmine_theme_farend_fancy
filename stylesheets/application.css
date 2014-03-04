@@ -126,7 +126,7 @@ h4, .wiki h3 {
 
 #main-menu li a.repository, #main-menu li a.repository:hover {
   padding-left: 24px;
-  background-image: url(../images/changeset.png)
+  background-image: url(../images/database_gear.png)
 }
 
 #main-menu li a.settings, #main-menu li a.settings:hover {
