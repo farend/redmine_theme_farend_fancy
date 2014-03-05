@@ -23,10 +23,37 @@ $(function(){
     ];
     jQuery.each(placeholderStrings, function() {
       if (controllerName === this.controller) {
-      	placeholderText = this.text;
-      	return false;
+        placeholderText = this.text;
+        return false;
       }
     });
     $("#quick-search input#q").attr("placeholder", placeholderText);
+
+    /* 言語が日本語のときは年月のドロップダウンの表示順を入れ替える */
+    /* 対象はカレンダー、ガントチャート */
+    if (controllerName == "controller-calendars" ||
+        controllerName == "controller-gantts") {
+      var $buttons = $("form#query_form p.buttons");
+      var $year_select = $buttons.find("select#year");
+
+      /* 月 の ドロップダウンを 年 の後ろに変更 */
+      $year_select.after($buttons.find("select#month"));
+      $year_select.after("\n");
+
+      /* 月 の label は不要なので削除 */
+      $buttons.find("label[for='month']").remove();
+
+      /* 年 の label の位置をドロップダウンの後ろに変更 */
+      if ($year_select.siblings("label[for='year']").length) {
+        $year_select.after($year_select.siblings("label[for='year']"));
+      }
+      else {
+        /* 年 の label がない場合は追加 */
+        $year_select.after(
+          $("<label>").attr("for", "year").text("年")
+        );
+      }
+      $year_select.after("\n");
+    }
   }
 });
