@@ -69,6 +69,11 @@ h4, .wiki h3 {
   color: #222;
 }
 
+#main-menu li a.overview, #main-menu li a.overview:hover {
+  padding-left: 24px;
+  background-image: url(../images/information.png)
+}
+
 #main-menu li a.activity, #main-menu li a.activity:hover {
   padding-left: 24px;
   background-image: url(../images/activities.png)
