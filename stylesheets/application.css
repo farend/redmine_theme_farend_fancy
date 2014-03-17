@@ -350,6 +350,7 @@ input[type="text"] {
 }
 
 textarea.wiki-edit {
+  font-size: 14px;
   font-family: "Osaka-Mono", "MS Gothic", sans-serif;
   letter-spacing: normal;
   line-height: 130%;
