@@ -17,6 +17,7 @@
 
 body {
   font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
+  font-size: 13px;
   color: #222;
 }
 
@@ -160,7 +161,11 @@ a#toggle-completed-versions {
 
 /***** Tables *****/
 
-table.list th {
+table.list {
+  font-size: 12px;
+}
+
+t-mno-fused-maddable.list th {
   padding: 4px 2px
 }
 
@@ -642,6 +647,7 @@ p.pagination .items {
 /* サイドバーの幅を狭く */
 #sidebar {
   width: 20%;
+  font-size: 12px;
 }
 
 #content {
@@ -655,4 +661,12 @@ p.pagination .items {
 /* 作成日・更新日に実際の日時を表示 */
 a[href*="activity"][title*=":"]:before {
 	content: ' [' attr(title) '] ';
+}
+
+.author {
+  font-size: 12px;
+}
+
+ul.details {
+  font-size: 12px;
 }
