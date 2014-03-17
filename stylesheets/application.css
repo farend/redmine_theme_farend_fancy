@@ -684,6 +684,6 @@ ul.details {
   font-size: 12px;
 }
 
-div.projects.box li > a {
+div.projects.box > ul > li > a {
   font-weight: bold;
 }
