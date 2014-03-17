@@ -169,6 +169,14 @@ table.list th {
   padding: 4px 2px
 }
 
+table.attributes {
+  font-size: 12px;
+}
+
+table.attributes td {
+  padding: 1px;
+}
+
 tr.changeset td.author {
   text-align: center;
   width: 15%;
