@@ -683,3 +683,7 @@ a[href*="activity"][title*=":"]:before {
 ul.details {
   font-size: 12px;
 }
+
+div.projects.box li > a {
+  font-weight: bold;
+}
