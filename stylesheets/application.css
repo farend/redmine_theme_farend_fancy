@@ -453,10 +453,6 @@ div.wiki pre {
   word-wrap: break-word; /* IE 5.5+ */
 }
 
-div.wiki img {
-  max-width: 98%
-}
-
 div.wiki p {
   line-height: 165%;
 }
