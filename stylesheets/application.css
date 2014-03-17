@@ -448,6 +448,10 @@ div.wiki img {
   max-width: 98%
 }
 
+div.wiki p {
+  line-height: 165%;
+}
+
 /***** My page layout *****/
 .mypage-box {
   color:#222;
