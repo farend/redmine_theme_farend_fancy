@@ -457,6 +457,10 @@ div.wiki p {
   line-height: 165%;
 }
 
+div.wiki li {
+  margin-bottom: 4px;
+}
+
 /***** My page layout *****/
 .mypage-box {
   color:#222;
