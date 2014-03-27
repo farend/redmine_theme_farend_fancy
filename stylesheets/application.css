@@ -685,9 +685,12 @@ div.projects.box > ul > li > a {
 }
 
 /* journal */
+div.journal {
+  margin-bottom: 0.5em;
+}
+
 div.journal ul.details {
   font-size: 12px;
-  margin-bottom: 1em;
   color: #444;
   background: #f6f6f6;
   border-radius: 3px;
