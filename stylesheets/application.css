@@ -680,16 +680,13 @@ a[href*="activity"][title*=":"]:before {
   font-size: 12px;
 }
 
-ul.details {
-  font-size: 12px;
-}
-
 div.projects.box > ul > li > a {
   font-weight: bold;
 }
 
 /* journal */
 div.journal ul.details {
+  font-size: 12px;
   margin-bottom: 1em;
   color: #444;
   background: #f6f6f6;
