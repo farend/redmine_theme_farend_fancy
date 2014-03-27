@@ -697,3 +697,13 @@ div.journal ul.details {
   padding-top: 3px;
   padding-bottom: 3px;
 }
+
+div.journal ul.details i:before {
+  content: '[';
+  font-style: normal;
+}
+
+div.journal ul.details i:after {
+  content: ']';
+  font-style: normal;
+}
