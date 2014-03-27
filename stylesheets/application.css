@@ -687,3 +687,13 @@ ul.details {
 div.projects.box > ul > li > a {
   font-weight: bold;
 }
+
+/* journal */
+div.journal ul.details {
+  margin-bottom: 1em;
+  color: #444;
+  background: #f6f6f6;
+  border-radius: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
