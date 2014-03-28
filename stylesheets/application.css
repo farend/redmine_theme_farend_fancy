@@ -673,6 +673,16 @@ div.projects.box > ul > li > a {
   font-weight: bold;
 }
 
+/* history */
+#history {
+  padding: 0 1em;
+  margin-bottom: 1em;
+  border-right: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  border-left: 1px solid #d7d7d7;
+  border-radius: 0 0 3px 3px / 0 0 3px 3px;
+}
+
 /* journal */
 div.journal {
   margin-bottom: 0.5em;
