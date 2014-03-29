@@ -129,11 +129,6 @@ h1 {
   background-image: url(../images/project_settings.png);
 }
 
-.pagination {
-  font-size: 100%;
-}
-
-
 /***** Links *****/
 
 a, a:link, a:visited {
@@ -622,23 +617,36 @@ html>body .tabular p {overflow:visible;}
 
 /***** pagination *****/
 p.pagination {
-  font-size: 100%;
+  font-size: 12px;
+}
+
+p.pagination a:hover {
+  background: #ffffdd;
 }
 
 p.pagination .current {
   font-weight: bold;
+  background: #d9e4ff;
 }
 
 p.pagination .page {
-  margin-right: 0.1em;
+  margin-right: 1px;
+  padding: 1px 4px;
+  border: 1px solid #bbb;
 }
 
 p.pagination .previous {
-  margin-right: 0.3em;
+  margin-right: 1px;
+  padding: 1px 4px;
+  border: 1px solid #bbb;
+  border-radius: 10px 0 0 10px;
 }
 
 p.pagination .next {
-  margin-left: 0.3em;
+  margin-left: 1px;
+  padding: 1px 4px;
+  border: 1px solid #bbb;
+  border-radius: 0 10px 10px 0;
 }
 
 p.pagination .items {
