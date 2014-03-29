@@ -706,3 +706,9 @@ div.journal ul.details i:after {
   content: ']';
   font-style: normal;
 }
+
+div.journal h4 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #444;
+}
