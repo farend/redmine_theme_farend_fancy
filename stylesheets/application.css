@@ -717,3 +717,17 @@ div.journal h4:first-child {
   font-weight: normal;
   color: #444;
 }
+
+/* news */
+body.controller-news.action-index h3 {
+  margin-bottom: 4px;
+}
+
+body.controller-news.action-index .author {
+  margin-top: 0;
+  border-bottom: 1px dotted #BBBBBB;
+}
+
+body.controller-news.action-index .wiki {
+  margin: 12px 0 20px 30px;
+}
