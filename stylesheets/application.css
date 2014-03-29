@@ -695,6 +695,7 @@ div.journal ul.details {
   border-radius: 3px;
   padding-top: 3px;
   padding-bottom: 3px;
+  margin-top: 10px;
 }
 
 div.journal ul.details i:before {
@@ -705,6 +706,10 @@ div.journal ul.details i:before {
 div.journal ul.details i:after {
   content: ']';
   font-style: normal;
+}
+
+div.journal div.wiki {
+  margin: 0 0 0 30px;
 }
 
 div.journal h4:first-child {
