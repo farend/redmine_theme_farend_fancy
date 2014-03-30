@@ -654,6 +654,10 @@ p.pagination .items {
   margin-right: 0.6em;
 }
 
+span.per-page span {
+  font-weight: bold;
+}
+
 /* サイドバーの幅を狭く */
 #sidebar {
   width: 20%;
