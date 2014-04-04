@@ -427,9 +427,7 @@ p.other-formats {
 
 div.wiki pre {
   /* farend_basic: preで横スクロールバーを表示させずに折り返す */;
-  width: 95%;
-  overflow-x: visible;
-  overflow-y: visible;
+  border-radius: 3px;
   white-space: -moz-pre-wrap; /* Mozilla */
   white-space: -pre-wrap; /* Opera 4-6 */
   white-space: -o-pre-wrap; /* Opera 7 */
