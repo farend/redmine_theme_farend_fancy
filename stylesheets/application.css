@@ -58,6 +58,7 @@ h1, h2, h3, h4 {
 #main-menu li a.selected, #main-menu li a.selected:hover {
   font-weight: bold;
   color: #222;
+  box-shadow: 3px -2px 2px rgba(0, 0, 0, 0.1);
 }
 
 #main-menu li a.overview, #main-menu li a.overview:hover {
