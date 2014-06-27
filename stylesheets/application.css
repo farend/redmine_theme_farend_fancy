@@ -318,6 +318,7 @@ tr.closed td.id, tr.closed td.subject {
 .box {
   color: #222;
   border-radius: 3px;
+  word-wrap: break-word;
 }
 
 .contextual {
