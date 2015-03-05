@@ -325,6 +325,14 @@ tr.closed td.id, tr.closed td.subject {
   font-size: 12px
 }
 
+.issue .contextual {
+  margin: 0;
+  padding: 2px 3px;
+  border-radius: 3px;
+  background: #fffff2;
+  border: 1px solid #e6e6cf;
+}
+
 /* submitボタンを押しやすく */
 input[type="submit"] {
   font-size: 12px;
