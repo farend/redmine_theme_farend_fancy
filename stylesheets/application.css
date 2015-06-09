@@ -176,6 +176,18 @@ tr.version.closed, tr.version.closed a {
   color: #666
 }
 
+tr.closed {
+  color: #888;
+}
+
+tr.closed a:link, tr.closed a:visited {
+  color: #3284c0;
+}
+
+tr.closed a:hover {
+  color: #900;
+}
+
 tr.assigned-to-me td.assigned_to, tr.created-by-me td.author {
   font-weight: bold;
   font-size: 11px;
@@ -300,11 +312,6 @@ tr.even.priority-lowest {
 
 tr.priority-lowest a {
   color: #559
-}
-
-/* チケット一覧で終了したチケットは取り消し線付きで表示 */
-tr.closed td.id, tr.closed td.subject {
-  text-decoration: line-through;
 }
 
 #watchers a.delete {
