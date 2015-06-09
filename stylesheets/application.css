@@ -176,16 +176,8 @@ tr.version.closed, tr.version.closed a {
   color: #666
 }
 
-tr.closed {
-  color: #888;
-}
-
-tr.closed a:link, tr.closed a:visited {
-  color: #3284c0;
-}
-
-tr.closed a:hover {
-  color: #900;
+table.list.issues tr.closed td {
+  opacity: 0.7;
 }
 
 tr.assigned-to-me td.assigned_to, tr.created-by-me td.author {
