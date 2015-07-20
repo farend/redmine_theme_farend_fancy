@@ -34,6 +34,10 @@ h1, h2, h3, h4 {
   font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif
 }
 
+pre, code {
+  font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;
+}
+
 #header h1 {
   font-size: 22px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
