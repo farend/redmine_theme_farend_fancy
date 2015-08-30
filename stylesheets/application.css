@@ -333,7 +333,9 @@ tr.priority-lowest a {
 }
 
 /* submitボタンを押しやすく */
-input[type="submit"] {
+input[type="submit"], input[type="reset"] {
+  -webkit-appearance: button;
+  cursor: pointer;
   font-size: 12px;
 }
 
