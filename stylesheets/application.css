@@ -621,41 +621,37 @@ div.message {
   border-top: 1px dashed #ccc;
 }
 
-/***** pagination *****/
-p.pagination {
-  font-size: 12px;
-}
-
-p.pagination a:hover {
+/***** pagination   obsoleted by http://www.redmine.org/issues/21258 *****/
+p.pagination > a:hover {
   background: #ffffdd;
 }
 
-p.pagination .current {
+p.pagination > span.current {
   font-weight: bold;
   background: #d9e4ff;
 }
 
-p.pagination .page {
+p.pagination > .page {
   margin-right: 1px;
   padding: 1px 4px;
   border: 1px solid #bbb;
 }
 
-p.pagination .previous {
+p.pagination > a.previous {
   margin-right: 1px;
   padding: 1px 4px;
   border: 1px solid #bbb;
   border-radius: 10px 0 0 10px;
 }
 
-p.pagination .next {
+p.pagination > a.next {
   margin-left: 1px;
   padding: 1px 4px;
   border: 1px solid #bbb;
   border-radius: 0 10px 10px 0;
 }
 
-p.pagination .items {
+p.pagination > span.items {
   margin-left: 0.3em;
   margin-right: 0.6em;
 }
