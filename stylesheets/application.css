@@ -91,7 +91,7 @@ pre, code {
   background-image: url(../images/ticket_add.png)
 }
 
-#main-menu li a.gantt, #main-menu li a.gantt:hover {
+#main-menu li a.gantt, #main-menu li a.gantt:hover, #main-menu li a.lgc, #main-menu li a.lgc:hover {
   padding-left: 24px;
   background-image: url(../images/gantt.png)
 }
