@@ -754,3 +754,16 @@ body.controller-news.action-index .wiki {
 .contextual .icon:first-child, .buttons .icon:first-child {
   margin-left: 0;
 }
+
+/* リポジトリ画面でコミットメッセージを目立たせる */
+table.revision-info {
+  color: #959595;
+}
+
+table.revision-info a {
+  color:#70A7CD;
+}
+
+table.revision-info a:hover {
+  color:#D14848;
+}
