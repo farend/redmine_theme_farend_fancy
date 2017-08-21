@@ -7,7 +7,7 @@ $(function(){
   var lang = $("a.help").text() == "ヘルプ" ? "ja" : $("html").attr("lang");
   if (lang == "ja") {
     /* 言語が日本語のときはヘルプのリンク先をRedmine.JPの日本語訳にする */
-    $("a.help").attr("href", "http://redmine.jp/guide/");
+    $("a.help").attr("href", "http://guide.redmine.jp/");
 
     /* 検索におけるスコープを検索ボックスのプレースホルダーに表示 */
     $("body").attr("class").match(/controller-[\S]+/);
@@ -29,4 +29,8 @@ $(function(){
     });
     $("#quick-search input#q").attr("placeholder", placeholderText);
   }
+
+  $("#login-form").after(
+    '<div style="text-align: center;"><p><a href="https://hosting.redmine.jp/">About</a> ・ <a href="https://hosting.redmine.jp/support/">Support</a> ・ <a href="https://hosting.redmine.jp/service/terms/">Terms of Use</a></p><p style="color: #aaa;">Served by Far End Technologies Corporation</p></div>'
+  );
 });
