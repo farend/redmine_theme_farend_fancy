@@ -29,8 +29,4 @@ $(function(){
     });
     $("#quick-search input#q").attr("placeholder", placeholderText);
   }
-
-  $("#login-form").after(
-    '<div style="text-align: center;"><p><a href="https://hosting.redmine.jp/">About</a> ・ <a href="https://hosting.redmine.jp/support/">Support</a> ・ <a href="https://hosting.redmine.jp/service/terms/">Terms of Use</a></p><p style="color: #aaa;">Served by Far End Technologies Corporation</p></div>'
-  );
 });
