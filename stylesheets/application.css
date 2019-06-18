@@ -426,16 +426,6 @@ p.other-formats {
   color: #484848;
 }
 
-/***** Tabs *****/
-
-#content .tabs ul li a {
-  color: #666
-}
-
-#content .tabs ul li a.selected {
-  color: #333
-}
-
 /***** Wiki *****/
 
 div.wiki pre {
