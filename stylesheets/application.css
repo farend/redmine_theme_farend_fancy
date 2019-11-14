@@ -708,3 +708,9 @@ table.revision-info a {
 table.revision-info a:hover {
   color:#D14848;
 }
+
+@media print {
+  #content {
+    width: 100%;
+  }
+}
