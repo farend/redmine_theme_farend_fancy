@@ -4,6 +4,11 @@ $(function(){
   $("a.help").attr("target","_blank");
   $("div#footer a[href^='http://www.redmine.org/']").attr("target","_blank");
 
+  /* 作成日・更新日に実際の日時を表示 */
+  $('a[href*="activity"][title*=":"]').each(function(_index, element){
+    $(element).text('[' + element.title + ']' + element.text);
+  });
+
   var lang = $("a.help").text() == "ヘルプ" ? "ja" : $("html").attr("lang");
   if (lang == "ja") {
     /* 言語が日本語のときはヘルプのリンク先をRedmine.JPの日本語訳にする */

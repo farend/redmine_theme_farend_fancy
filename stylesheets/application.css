@@ -619,11 +619,6 @@ div.message {
   width: 77%;
 }
 
-/* 作成日・更新日に実際の日時を表示 */
-a[href*="activity"][title*=":"]:before {
-	content: ' [' attr(title) '] ';
-}
-
 .author {
   font-size: 12px;
 }
