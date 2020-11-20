@@ -21,7 +21,7 @@ Redmineの画面を楽しく親しみやすくすることを目的として、f
 Redmineのインストールディレクトリで以下のコマンドを実行してください。
 
 ```
-git clone git://github.com/farend/redmine_theme_farend_fancy.git public/themes/farend_fancy
+git clone https://github.com/farend/redmine_theme_farend_fancy.git public/themes/farend_fancy
 ```
 
 gitコマンドが利用できない場合、以下のURLからzipファイルをダウンロードし展開してください。
