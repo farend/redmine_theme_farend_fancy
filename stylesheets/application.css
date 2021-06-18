@@ -605,14 +605,16 @@ div.message {
   border-top: 1px dashed #ccc;
 }
 
-/* サイドバーの幅を狭く */
-#sidebar {
-  width: 20%;
-  font-size: 12px;
+/* 作成日・更新日に実際の日時を表示 */
+a[href*="activity"][data-absolute-date*=":"] {
+  margin: 0 3px;
+  box-shadow: inset 0 -1.5em 0 rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  padding: 0 3px;
+  border-radius: 3px;
 }
-
-#content {
-  width: 77%;
+a[href*="activity"][data-absolute-date*=":"]:before {
+  content: ' [' attr(data-absolute-date) '] ';
 }
 
 * html #content{
@@ -698,4 +700,53 @@ table.revision-info a:hover {
   #content {
     width: 100%;
   }
+}
+
+/* Collapse sidebar */
+#sidebar { width: 19%; display: none;}
+#main.visible-sidebar #sidebar{ display: block; }
+@media screen and (max-width: 899px) {
+  #main.visible-sidebar #sidebar, #main.visible-sidebar #sidebar-switch-panel { display: none; }
+}
+
+#content { padding: 14px 14px 14px 14px; }
+#sidebar-switch-panel {
+  float: right;
+  left: 10px;
+  top: 2px;
+  width: 20px;
+  height: 25px;
+  position: relative;
+  padding: 2px;
+  margin-left: 5px;
+}
+#sidebar-switch-button {
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-radius: 10px 0px 0px 10px;
+  display: block;
+  height: 100%;
+  padding: 9px 20px 9px 5px;
+  font-size: 0px;
+  text-decoration: none;
+}
+#main #sidebar-switch-button .arrow {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-top: 8px;
+  border-top: 3px solid gray;
+  border-right: 3px solid gray;
+}
+#main:not(.visible-sidebar) #sidebar-switch-button .arrow{
+  margin-left: 4px;
+  transform: rotate(-135deg);
+}
+#main.visible-sidebar #sidebar-switch-button .arrow {
+  transform: rotate(45deg);
+}
+@media print {
+  #main.visible-sidebar #sidebar, #sidebar-switch-panel { display:none; }
 }
