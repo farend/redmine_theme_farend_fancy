@@ -30,6 +30,14 @@ gitコマンドが利用できない場合、以下のURLからzipファイル�
 https://github.com/farend/redmine_theme_farend_fancy/archive/master.zip
 ```
 
+#### RedMica 3.0以降の場合
+
+Redmineのインストールディレクトリで以下のコマンドを実行してください。
+
+```
+git clone -b support-propshaft https://github.com/farend/redmine_theme_farend_fancy.git themes/farend_fancy
+```
+
 アーカイブを展開した結果作成されたディレクトリをRedmineインストールディレクトリ以下のpublic/themesディレクトリにfarend_fancyという名前でコピーしてください。
 
 ### 新しいテーマの利用
