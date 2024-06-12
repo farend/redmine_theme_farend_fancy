@@ -32,6 +32,14 @@ https://github.com/farend/redmine_theme_farend_fancy/archive/master.zip
 
 アーカイブを展開した結果作成されたディレクトリをRedmineインストールディレクトリ以下のpublic/themesディレクトリにfarend_fancyという名前でコピーしてください。
 
+#### RedMica 3.0以降の場合
+
+Redmineのインストールディレクトリで以下のコマンドを実行してください。
+
+```
+git clone -b support-propshaft https://github.com/farend/redmine_theme_farend_fancy.git themes/farend_fancy
+```
+
 ### 新しいテーマの利用
 
 Redmineの管理画面で新しいテーマを利用する設定を行います。
