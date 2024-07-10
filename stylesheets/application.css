@@ -120,7 +120,7 @@ h1, h2, h3, h4 {
 
 #main-menu li a.boards, #main-menu li a.boards:hover {
   padding-left: 24px;
-  background-image: url(../images//comments.png)
+  background-image: url(../images/comments.png)
 }
 
 #main-menu li a.files, #main-menu li a.files:hover {
@@ -511,7 +511,7 @@ div.wiki li {
 }
 
 a.atom {
-    background: url(../images/oxygen/application-rss%2Bxml.png) no-repeat 0px 0px;
+    background: url(../images/oxygen/application-rss-xml.png) no-repeat 0px 0px;
     padding: 2px 0px 3px 16px;
 }
 
