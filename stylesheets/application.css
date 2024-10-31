@@ -721,10 +721,10 @@ table.revision-info a:hover {
   margin-left: 5px;
 }
 #sidebar-switch-button {
-  background-color: #EEEEEE;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  border-top: 1px solid #ddd;
+  background-color: #f9fafb;
+  border-bottom: 1px solid #d0d7de;
+  border-left: 1px solid #d0d7de;
+  border-top: 1px solid #d0d7de;
   border-radius: 10px 0px 0px 10px;
   display: block;
   height: 100%;
