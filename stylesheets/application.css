@@ -120,7 +120,7 @@ h1, h2, h3, h4 {
 
 #main-menu li a.boards, #main-menu li a.boards:hover {
   padding-left: 24px;
-  background-image: url(../images//comments.png)
+  background-image: url(../images/comments.png)
 }
 
 #main-menu li a.files, #main-menu li a.files:hover {
@@ -511,7 +511,7 @@ div.wiki li {
 }
 
 a.atom {
-    background: url(../images/oxygen/application-rss%2Bxml.png) no-repeat 0px 0px;
+    background: url(../images/oxygen/application-rss-xml.png) no-repeat 0px 0px;
     padding: 2px 0px 3px 16px;
 }
 
@@ -700,53 +700,4 @@ table.revision-info a:hover {
   #content {
     width: 100%;
   }
-}
-
-/* Collapse sidebar */
-#sidebar { width: 19%; display: none;}
-#main.visible-sidebar #sidebar{ display: block; }
-@media screen and (max-width: 899px) {
-  #main.visible-sidebar #sidebar, #main.visible-sidebar #sidebar-switch-panel { display: none; }
-}
-
-#content { padding: 14px 14px 14px 14px; }
-#sidebar-switch-panel {
-  float: right;
-  left: 10px;
-  top: 2px;
-  width: 20px;
-  height: 25px;
-  position: relative;
-  padding: 2px;
-  margin-left: 5px;
-}
-#sidebar-switch-button {
-  background-color: #EEEEEE;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  border-top: 1px solid #ddd;
-  border-radius: 10px 0px 0px 10px;
-  display: block;
-  height: 100%;
-  padding: 9px 20px 9px 5px;
-  font-size: 0px;
-  text-decoration: none;
-}
-#main #sidebar-switch-button .arrow {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-top: 8px;
-  border-top: 3px solid gray;
-  border-right: 3px solid gray;
-}
-#main:not(.visible-sidebar) #sidebar-switch-button .arrow{
-  margin-left: 4px;
-  transform: rotate(-135deg);
-}
-#main.visible-sidebar #sidebar-switch-button .arrow {
-  transform: rotate(45deg);
-}
-@media print {
-  #main.visible-sidebar #sidebar, #sidebar-switch-panel { display:none; }
 }
