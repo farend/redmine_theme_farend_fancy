@@ -316,7 +316,7 @@ input[type="text"] {
 }
 
 textarea.wiki-edit {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Osaka-Mono", "MS Gothic", sans-serif;
   letter-spacing: normal;
   line-height: 130%;
@@ -508,7 +508,7 @@ a.png {
 }
 
 #login-form input#username, #login-form input#password {
-    font-size: 15px;
+    font-size: 0.9375rem;
     padding: 3px;
 }
 
