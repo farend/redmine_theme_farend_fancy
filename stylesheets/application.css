@@ -17,7 +17,6 @@
 
 body {
   font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
-  font-size: 13px;
   color: #222;
 }
 
@@ -35,7 +34,6 @@ h1, h2, h3, h4 {
 }
 
 #header h1 {
-  font-size: 22px;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
 }
 
@@ -51,7 +49,6 @@ h1, h2, h3, h4 {
   padding: 5px 8px 4px 8px;
   background-position: 6px 50%;
   background-repeat: no-repeat;
-  font-size: 11px;
   font-weight: normal;
   border-radius: 3px 3px 0px 0px;
 }
@@ -150,20 +147,8 @@ a#toggle-completed-versions {
 
 /***** Tables *****/
 
-table.list {
-  font-size: 12px;
-}
-
 table.list th {
   padding: 4px 2px
-}
-
-table.attributes {
-  font-size: 12px;
-}
-
-table.attributes td {
-  padding: 1px;
 }
 
 tr.changeset td.author {
@@ -184,11 +169,6 @@ tr.version.closed, tr.version.closed a {
 
 table.list.issues tr.closed td {
   opacity: 0.7;
-}
-
-tr.assigned-to-me td.assigned_to, tr.created-by-me td.author {
-  font-weight: bold;
-  font-size: 11px;
 }
 
 td.parent {
@@ -321,10 +301,6 @@ tr.priority-lowest a {
   word-wrap: break-word;
 }
 
-.contextual {
-  font-size: 12px
-}
-
 .issue .contextual {
   margin: 0;
   padding: 2px 3px;
@@ -333,18 +309,10 @@ tr.priority-lowest a {
   border: 1px solid #e6e6cf;
 }
 
-/* submitボタンを押しやすく */
-input[type="submit"], input[type="reset"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-  font-size: 12px;
-}
-
 /* テキストボックスで等幅フォントを使用 */
 
 input[type="text"] {
   font-family: "Osaka-Mono", "MS Gothic", sans-serif;
-  font-size: 100%;
 }
 
 textarea.wiki-edit {
@@ -384,10 +352,6 @@ div#relations .contextual a {
     padding-top: 2px;
 }
 
-.buttons {
-  font-size: 12px
-}
-
 div#activity dt .time {
   color: #484848
 }
@@ -409,10 +373,6 @@ form .attributes p {
   padding-bottom: 2px;
 }
 
-form#issue-form small {
-  font-size: 11px;
-}
-
 div.wiki-page .contextual a {
   opacity: 0.7
 }
@@ -422,7 +382,6 @@ ul.projects div.root a.project {
 }
 
 p.other-formats {
-  font-size: 12px;
   color: #484848;
 }
 
@@ -621,10 +580,6 @@ a[href*="activity"][data-absolute-date*=":"]:before {
   width: 77%;
 }
 
-.author {
-  font-size: 12px;
-}
-
 div.projects.box > ul > li > a {
   font-weight: bold;
 }
@@ -635,7 +590,6 @@ div.journal {
 }
 
 div.journal ul.details {
-  font-size: 12px;
   color: #444;
   background: #f6f6f6;
   border-radius: 3px;
@@ -654,9 +608,7 @@ div.journal ul.details i:after {
   font-style: normal;
 }
 
-div.journal h4:first-child {
-  font-size: 12px;
-  font-weight: normal;
+div.journal h4.note-header {
   color: #444;
 }
 
