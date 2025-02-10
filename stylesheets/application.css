@@ -49,6 +49,7 @@ h1, h2, h3, h4 {
   padding: 5px 8px 4px 8px;
   background-position: 6px 50%;
   background-repeat: no-repeat;
+  font-size: 0.750rem;
   font-weight: normal;
   border-radius: 3px 3px 0px 0px;
 }
