@@ -310,17 +310,13 @@ tr.priority-lowest a {
   border: 1px solid #e6e6cf;
 }
 
-/* テキストボックスで等幅フォントを使用 */
-
-input[type="text"] {
-  font-family: "Osaka-Mono", "MS Gothic", sans-serif;
+/* proportional でない場合にフォントを変更 */
+body:not(.textarea-proportional) input[type="text"], body:not(.textarea-proportional) textarea.wiki-edit {
+  font-family: "Osaka-Mono", "MS Gothic", monospace;
 }
 
 textarea.wiki-edit {
   font-size: 0.875rem;
-  font-family: "Osaka-Mono", "MS Gothic", sans-serif;
-  letter-spacing: normal;
-  line-height: 130%;
 }
 
 div.issue {
