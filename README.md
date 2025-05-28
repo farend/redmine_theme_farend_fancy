@@ -2,11 +2,11 @@
 
 Redmineの画面を楽しく親しみやすくすることを目的として、farend basicをベースにアイコン表示の追加を中心とした変更を行いました。
 
-サンプル1 (メニュー):
 <kbd><img src="https://github.com/farend/redmine_theme_farend_fancy/blob/images/menu.png" /></kbd>
 
-サンプル2 (エクスポートアイコン):
-<kbd><img src="https://github.com/farend/redmine_theme_farend_fancy/blob/images/export-icon.png" /></kbd>
+このテーマは、Redmimeのクラウドサービス [My Redmine](https://hosting.redmine.jp/) のサービス提供用に開発し、OSSとして公開したものです。
+
+[<img src="https://www.farend.co.jp/files/myredmine-logo/hz/myredmine-logo-hz.png" width="250">](https://hosting.redmine.jp/)
 
 ## farend fancyテーマの特長
 
