@@ -509,27 +509,6 @@ a.png {
     padding: 3px;
 }
 
-/***** contextual menu *****/
-div.contextual a[href$="/issues"], a[href$="/time_entries"], a[href$="/activity"] {
-    background-position: 0 50%;
-    background-repeat: no-repeat;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-top: 2px;
-}
-
-div.contextual a[href$="/issues"] {
-    background-image: url("../images/ticket.png");
-}
-
-div.contextual a[href$="/time_entries"] {
-    background-image: url("../images/time.png");
-}
-
-div.contextual a[href$="/activity"] {
-    background-image: url("../images/activities.png");
-}
-
 div.attributes[id="attributes"] {
   border: 1px 0 0 0 0 solid #f00;
 }
