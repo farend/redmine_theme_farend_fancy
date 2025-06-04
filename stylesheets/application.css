@@ -602,15 +602,6 @@ body.controller-news.action-index .wiki {
   margin: 12px 0 20px 30px;
 }
 
-/* アイコン間のマージンを調整して識別しやすく */
-.contextual .icon, .buttons .icon {
-  margin-left: 5px;
-}
-
-.contextual .icon:first-child, .buttons .icon:first-child {
-  margin-left: 0;
-}
-
 /* リポジトリ画面でコミットメッセージを目立たせる */
 table.revision-info {
   color: #959595;
