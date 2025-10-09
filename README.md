@@ -32,6 +32,14 @@ https://github.com/farend/redmine_theme_farend_fancy/archive/master.zip
 
 アーカイブを展開した結果作成されたディレクトリをRedmineインストールディレクトリ以下のthemesディレクトリにfarend_fancyという名前でコピーしてください。
 
+#### Redmine6.0の場合
+
+Redmineのインストールディレクトリで以下のコマンドを実行してください。
+
+```
+git clone -b redmine6.0 https://github.com/farend/redmine_theme_farend_fancy.git themes/farend_fancy
+```
+
 #### Redmine5.1以前の場合
 
 Redmineのインストールディレクトリで以下のコマンドを実行してください。
