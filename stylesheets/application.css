@@ -514,15 +514,15 @@ div.attributes[id="attributes"] {
 }
 
 /***** calendar *****/
-table.cal div.closed {
+ul.cal div.closed {
   text-decoration: line-through;
 }
 
-table.cal div.overdue {
+ul.cal div.overdue {
   background: #ffe5cc
 }
 
-table.cal div.assigned-to-me a {
+ul.cal div.assigned-to-me a {
   font-weight: bold;
 }
 
@@ -533,11 +533,6 @@ div.message {
   border-radius: 3px;
   padding: 6px;
   margin-bottom: 6px;
-}
-
-/***** attachments *****/
-#content .wiki-page + .attachments {
-  border-top: 1px dashed #ccc;
 }
 
 /* 作成日・更新日に実際の日時を表示 */
@@ -561,31 +556,23 @@ div.projects.box > ul > li > a {
 }
 
 /* journal */
-div.journal {
-  margin-bottom: 0.5em;
-}
-
-div.journal ul.details {
+div.journal-content ul.journal-details {
   color: #444;
-  background: #f6f6f6;
+  background: #f8f9fa;
   border-radius: 3px;
   padding-top: 3px;
   padding-bottom: 3px;
   margin-top: 10px;
 }
 
-div.journal ul.details i:before {
+div.journal-content ul.journal-details i:before {
   content: '[';
   font-style: normal;
 }
 
-div.journal ul.details i:after {
+div.journal-content ul.journal-details i:after {
   content: ']';
   font-style: normal;
-}
-
-div.journal h4.note-header {
-  color: #444;
 }
 
 /* news */
@@ -600,19 +587,6 @@ body.controller-news.action-index .author {
 
 body.controller-news.action-index .wiki {
   margin: 12px 0 20px 30px;
-}
-
-/* リポジトリ画面でコミットメッセージを目立たせる */
-table.revision-info {
-  color: #959595;
-}
-
-table.revision-info a {
-  color:#70A7CD;
-}
-
-table.revision-info a:hover {
-  color:#D14848;
 }
 
 @media print {
