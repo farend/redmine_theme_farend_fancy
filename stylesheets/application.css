@@ -473,10 +473,6 @@ a.png {
     padding: 3px;
 }
 
-div.attributes[id="attributes"] {
-  border: 1px 0 0 0 0 solid #f00;
-}
-
 /***** calendar *****/
 ul.cal div.closed {
   text-decoration: line-through;
