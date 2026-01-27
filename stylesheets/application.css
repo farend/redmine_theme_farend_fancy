@@ -29,17 +29,24 @@ h1, h2, h3, h4 {
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
 }
 
+[dir="rtl"] #header h1 {
+  text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
 #content h1, h2, h3, h4 {
   color: var(--oc-gray-9, #212529); /* Initial value is fallbak for Redmine < 7.0 */
 }
 
 #main-menu li a, #main-menu li a:hover, #main-menu li a:active, #main-menu li a.selected, #main-menu li a.selected:hover {
-  padding: 5px 8px 4px 8px;
+  padding-block: 5px 4px;
+  padding-inline: 8px;
   background-position: 6px 50%;
   background-repeat: no-repeat;
   font-size: 0.750rem;
   font-weight: normal;
-  border-radius: 3px 3px 0px 0px;
+  border-start-start-radius: 3px;
+  border-start-end-radius: 3px;
+
 }
 
 #main-menu li a.selected, #main-menu li a.selected:hover {
@@ -48,79 +55,83 @@ h1, h2, h3, h4 {
   box-shadow: 3px -2px 2px rgba(0, 0, 0, 0.1);
 }
 
+[dir="rtl"] #main-menu li :is(a.selected, a.selected:hover) {
+  box-shadow: -3px -2px 2px rgba(0, 0, 0, 0.1);
+}
+
 #main-menu li a.overview, #main-menu li a.overview:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/information.png)
 }
 
 #main-menu li a.activity, #main-menu li a.activity:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/activities.png)
 }
 
 #main-menu li a.roadmap, #main-menu li a.roadmap:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/package.png)
 }
 
 #main-menu li a.issues, #main-menu li a.issues:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/ticket.png)
 }
 
 #main-menu li a.new-issue, #main-menu li a.new-issue:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/ticket_add.png)
 }
 
 
 #main-menu li a.time-entries, #main-menu li a.time-entries:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/time.png)
 }
 
 #main-menu li a.gantt, #main-menu li a.gantt:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/gantt.png)
 }
 
 #main-menu li a.calendar, #main-menu li a.calendar:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/calendar.png)
 }
 
 #main-menu li a.news, #main-menu li a.news:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/news.png)
 }
 
 #main-menu li a.documents, #main-menu li a.documents:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/oxygen/document-multiple.png)
 }
 
 #main-menu li a.wiki, #main-menu li a.wiki:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/page_edit.png)
 }
 
 #main-menu li a.boards, #main-menu li a.boards:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/comments.png)
 }
 
 #main-menu li a.files, #main-menu li a.files:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/oxygen/package-x-generic.png)
 }
 
 #main-menu li a.repository, #main-menu li a.repository:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/database_gear.png)
 }
 
 #main-menu li a.settings, #main-menu li a.settings:hover {
-  padding-left: 24px;
+  padding-inline-start: 24px;
   background-image: url(../images/project_settings.png);
 }
 
@@ -142,12 +153,12 @@ table.list th {
 
 tr.changeset td.author {
   text-align: center;
-  width: 15%;
+  inline-size: 15%;
 }
 
 tr.changeset td.committed_on {
   text-align: center;
-  width: 15%;
+  inline-size: 15%;
 }
 
 /* assinged to me, created by me */
@@ -162,7 +173,7 @@ table.list.issues tr.closed td {
 
 td.parent {
   white-space: normal;
-  text-align: left;
+  text-align: start;
 }
 
 /* overdue */
@@ -315,18 +326,16 @@ div#issue_tree .contextual a[href*="/issues/new"] {
     background-image: url("../images/ticket_add.png");
     background-position: 0 50%;
     background-repeat: no-repeat;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-block: 2px 3px;
+    padding-inline-start: 20px;
 }
 
 div#relations .contextual a {
     background-image: url("../images/add.png");
     background-position: 0 50%;
     background-repeat: no-repeat;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-block: 2px 3px;
+    padding-inline-start: 20px;
 }
 
 div#activity dd span.description, #search-results dd span.description {
@@ -334,12 +343,11 @@ div#activity dd span.description, #search-results dd span.description {
 }
 
 form .attributes {
-  margin-bottom: 8px
+  margin-block-end: 8px
 }
 
 form .attributes p {
-  padding-top: 1px;
-  padding-bottom: 2px;
+  padding-block: 1px 2px;
 }
 
 div.wiki-page .contextual a {
@@ -370,7 +378,7 @@ div.wiki p {
 }
 
 div.wiki li {
-  margin-bottom: 4px;
+  margin-block-end: 4px;
 }
 
 /***** My page layout *****/
@@ -433,39 +441,44 @@ div.wiki li {
 #top-menu a.home, #top-menu a.my-page, #top-menu a.projects, #top-menu a.administration, #top-menu a.help, #top-menu a.my-account, #top-menu a.logout, #top-menu a.login, #top-menu a.register {
     background-position: 0% 40%;
     background-repeat: no-repeat;
-    padding-left: 20px;
-    padding-top: 2px;
-    padding-bottom: 3px;
+    padding-block: 2px 3px;
+    padding-inline-start: 20px;
 }
 
 a.atom {
     background: url(../images/oxygen/application-rss-xml.png) no-repeat 0px 0px;
-    padding: 2px 0px 3px 16px;
+    padding-block: 2px 3px;
+    padding-inline: 16px 0;
 }
 
 a.csv {
     background: url(../images/oxygen/text-csv.png) no-repeat 0px 0px;
-    padding: 2px 0px 3px 16px;
+    padding-block: 2px 3px;
+    padding-inline: 16px 0;
 }
 
 a.txt {
     background: url(../images/oxygen/text-plain.png) no-repeat 0px 0px;
-    padding: 2px 0px 3px 16px;
+    padding-block: 2px 3px;
+    padding-inline: 16px 0;
 }
 
 a.html {
     background: url(../images/oxygen/text-html.png) no-repeat 0px 0px;
-    padding: 2px 0px 3px 16px;
+    padding-block: 2px 3px;
+    padding-inline: 16px 0;
 }
 
 a.pdf {
-    background: url(../images/oxygen/application-pdf.png) no-repeat 0px 0px;;
-    padding: 2px 0px 3px 16px;
+    background: url(../images/oxygen/application-pdf.png) no-repeat 0px 0px;
+    padding-block: 2px 3px;
+    padding-inline: 16px 0;
 }
 
 a.png {
     background: url(../images/oxygen/image-x-generic.png) no-repeat 0px 0px;
-    padding: 2px 0px 3px 16px;
+    padding-block: 2px 3px;
+    padding-inline: 16px 0;
 }
 
 #login-form input#username, #login-form input#password {
@@ -492,7 +505,7 @@ div.message:not(.journal) {
   border: solid 1px var(--oc-gray-4, #ced4da);
   border-radius: 3px;
   padding: 6px;
-  margin-bottom: 6px;
+  margin-block-end: 6px;
 }
 
 /* 作成日・更新日に実際の日時を表示 */
@@ -508,7 +521,7 @@ a[href*="activity"][data-absolute-date*=":"]:before {
 }
 
 * html #content{
-  width: 77%;
+  inline-size: 77%;
 }
 
 div.projects.box > ul > li > a {
@@ -520,9 +533,8 @@ div.journal-content ul.journal-details {
   color: var(--oc-gray-7, #495057);
   background: var(--oc-gray-0, #f8f9fa);
   border-radius: 3px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  margin-top: 10px;
+  padding-block: 3px;
+  margin-block-start: 10px;
 }
 
 div.journal-content ul.journal-details i:before {
@@ -537,20 +549,40 @@ div.journal-content ul.journal-details i:after {
 
 /* news */
 body.controller-news.action-index h3 {
-  margin-bottom: 4px;
+  margin-block-end: 4px;
 }
 
 body.controller-news.action-index .author {
-  margin-top: 0;
-  border-bottom: 1px dotted var(--oc-gray-4, #ced4da)
+  margin-block-start: 0;
+  border-block-end: 1px dotted var(--oc-gray-4, #ced4da)
 }
 
 body.controller-news.action-index .wiki {
-  margin: 12px 0 20px 30px;
+  margin-block: 12px 20px;
+  margin-inline-end: 0;
+  margin-inline-start: 30px;
 }
 
 @media print {
   #content {
-    width: 100%;
+    inline-size: 100%;
   }
+}
+/* RTL support for background-position */
+
+[dir="rtl"] #main-menu li :is(a, a:hover, a:active, a.selected, a.selected:hover) {
+  background-position: right 6px center;
+}
+
+[dir="rtl"] div#issue_tree .contextual a[href*="/issues/new"],
+[dir="rtl"] div#relations .contextual a {
+  background-position: right 0 center;
+}
+
+[dir="rtl"] #top-menu :is(a.home, a.my-page, a.projects, a.administration, a.help, a.my-account, a.logout, a.login, a.register) {
+  background-position: right 0% top 40%;
+}
+
+[dir="rtl"] :is(a.atom, a.csv, a.txt, a.html, a.pdf, a.png) {
+  background-position: right 0px top 0px;
 }
