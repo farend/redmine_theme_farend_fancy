@@ -92,25 +92,27 @@ body #header h1 {
   color: var(--oc-white, white);
 }
 
-#main-menu a:is(.overview, .activity, .roadmap, .issues, .new-issue, .time-entries, .gantt, .calendar, .news, .documents, .wiki, .boards, .files, .repository, .settings) {
+#main-menu li a:is(.overview, .activity, .roadmap, .issues, .new-issue, .time-entries, .gantt, .calendar, .news, .documents, .wiki, .boards, .files, .repository, .settings) {
   --menu-pad-left: 24px; /* アイコンありの場合は24px */
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
 
-#main-menu a.overview { background-image: url(../images/information.png) }
-#main-menu a.activity { background-image: url(../images/activities.png) }
-#main-menu a.roadmap { background-image: url(../images/package.png) }
-#main-menu a.issues { background-image: url(../images/ticket.png) }
-#main-menu a.new-issue { background-image: url(../images/ticket_add.png) }
-#main-menu a.time-entries { background-image: url(../images/time.png) }
-#main-menu a.gantt { background-image: url(../images/gantt.png) }
-#main-menu a.calendar { background-image: url(../images/calendar.png) }
-#main-menu a.news { background-image: url(../images/news.png) }
-#main-menu a.documents { background-image: url(../images/oxygen/document-multiple.png) }
-#main-menu a.wiki { background-image: url(../images/page_edit.png) }
-#main-menu a.boards { background-image: url(../images/comments.png) }
-#main-menu a.files { background-image: url(../images/oxygen/package-x-generic.png) }
-#main-menu a.repository { background-image: url(../images/database_gear.png) }
-#main-menu a.settings { background-image: url(../images/project_settings.png) }
+#main-menu li a.overview { background-image: url(../images/information.png) }
+#main-menu li a.activity { background-image: url(../images/activities.png) }
+#main-menu li a.roadmap { background-image: url(../images/package.png) }
+#main-menu li a.issues { background-image: url(../images/ticket.png) }
+#main-menu li a.new-issue { background-image: url(../images/ticket_add.png) }
+#main-menu li a.time-entries { background-image: url(../images/time.png) }
+#main-menu li a.gantt { background-image: url(../images/gantt.png) }
+#main-menu li a.calendar { background-image: url(../images/calendar.png) }
+#main-menu li a.news { background-image: url(../images/news.png) }
+#main-menu li a.documents { background-image: url(../images/oxygen/document-multiple.png) }
+#main-menu li a.wiki { background-image: url(../images/page_edit.png) }
+#main-menu li a.boards { background-image: url(../images/comments.png) }
+#main-menu li a.files { background-image: url(../images/oxygen/package-x-generic.png) }
+#main-menu li a.repository { background-image: url(../images/database_gear.png) }
+#main-menu li a.settings { background-image: url(../images/project_settings.png) }
 
 #main-menu > ul > li > a.new-object {
   padding: 5px 8px 4px 8px;
