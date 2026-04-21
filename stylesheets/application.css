@@ -286,10 +286,7 @@ tr.priority-lowest a {
   word-wrap: break-word;
 }
 
-.issue .contextual {
-  margin: 0;
-  padding: 2px 3px;
-  border-radius: 3px;
+.issue .next-prev-links.contextual .pagination li {
   background: rgba(var(--oc-white-rgb, 255, 255, 255), 0.8);
   border: 1px solid var(--oc-gray-4, #ced4da);
 }
