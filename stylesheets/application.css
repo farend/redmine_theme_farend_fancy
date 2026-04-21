@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
   font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif
 }
 
-#content h1, h2, h3, h4 {
+#content h1, #content h2, #content h3, #content h4 {
   color: var(--oc-gray-9, #212529); /* Initial value is fallback for Redmine < 7.0 */
 }
 
