@@ -73,8 +73,7 @@ body #header h1 {
 }
 
 #main-menu > ul > li > a {
-  --menu-pad-left: 8px; /* アイコン無しの場合は8px */
-  padding: 5px 8px 4px var(--menu-pad-left);
+  padding: 5px 8px 4px 8px;
   background-position: 6px 50%;
   background-repeat: no-repeat;
   border-radius: 3px 3px 0px 0px;
@@ -93,7 +92,7 @@ body #header h1 {
 }
 
 #main-menu li a:is(.overview, .activity, .roadmap, .issues, .new-issue, .time-entries, .gantt, .calendar, .news, .documents, .wiki, .boards, .files, .repository, .settings) {
-  --menu-pad-left: 24px; /* アイコンありの場合は24px */
+  padding-left: 24px;
   background-repeat: no-repeat;
   background-position: 6px 50%;
 }
