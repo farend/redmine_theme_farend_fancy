@@ -16,112 +16,188 @@ body {
   font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
 }
 
+h1, h2, h3, h4 {
+  font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif
+}
+
+#content h1, #content h2, #content h3, #content h4 {
+  color: var(--oc-gray-9, #212529);
+}
+
 #header {
   background: #455b9d;
   background: linear-gradient(#4f68b5, #455b9d, #455b9d); /* HSV(222, 50, 76) -> (222, 50, 68) -> (222, 50, 68) */
 }
 
-h1, h2, h3, h4 {
-  font-family: Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif
+/* ヘッダー再設計後(redmine.org/issues/43937)も従来のヘッダー/メインメニュー表示を維持 */
+
+body #header, body.has-main-menu #header {
+  padding-block-end: 10px;
+  min-height: 8.7ex;
 }
 
-#header h1 {
+body #header h1 {
+  padding: 2px 10px 1px 0px;
+  min-block-size: 0;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
 }
 
-#content h1, h2, h3, h4 {
-  color: var(--oc-gray-9, #212529); /* Initial value is fallbak for Redmine < 7.0 */
+#quick-search {
+  min-block-size: 0;
+  gap: 0;
 }
 
-#main-menu li a, #main-menu li a:hover, #main-menu li a:active, #main-menu li a.selected, #main-menu li a.selected:hover {
+#quick-search form {
+  margin-inline-end: 3px;
+}
+
+#quick-search form label {
+  margin-inline-end: 0px;
+}
+
+#main-menu {
+  background-color: transparent;
+  padding-block: 0;
+}
+
+#main-menu ul {
+  align-items: flex-end;
+  min-block-size: 0;
+}
+
+#main-menu li a {
+  font-size: 0.750rem;
+  font-weight: normal;
+  color: var(--oc-white, white);
+  line-height: initial;
+}
+
+#main-menu > ul > li > a {
   padding: 5px 8px 4px 8px;
   background-position: 6px 50%;
   background-repeat: no-repeat;
-  font-size: 0.750rem;
-  font-weight: normal;
   border-radius: 3px 3px 0px 0px;
 }
 
-#main-menu li a.selected, #main-menu li a.selected:hover {
+#main-menu li a.selected,
+#main-menu li a.selected:hover {
   font-weight: bold;
   color: var(--oc-gray-9, #212529);
-  box-shadow: 3px -2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+#main-menu > ul > li > a:not(.selected):hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--oc-white, white);
 }
 
 #main-menu li a.overview, #main-menu li a.overview:hover {
   padding-left: 24px;
-  background-image: url(../images/information.png)
+  background-image: url(../images/information.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.activity, #main-menu li a.activity:hover {
   padding-left: 24px;
-  background-image: url(../images/activities.png)
+  background-image: url(../images/activities.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.roadmap, #main-menu li a.roadmap:hover {
   padding-left: 24px;
-  background-image: url(../images/package.png)
+  background-image: url(../images/package.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.issues, #main-menu li a.issues:hover {
   padding-left: 24px;
-  background-image: url(../images/ticket.png)
+  background-image: url(../images/ticket.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.new-issue, #main-menu li a.new-issue:hover {
   padding-left: 24px;
-  background-image: url(../images/ticket_add.png)
+  background-image: url(../images/ticket_add.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
-
 #main-menu li a.time-entries, #main-menu li a.time-entries:hover {
   padding-left: 24px;
-  background-image: url(../images/time.png)
+  background-image: url(../images/time.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.gantt, #main-menu li a.gantt:hover {
   padding-left: 24px;
-  background-image: url(../images/gantt.png)
+  background-image: url(../images/gantt.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.calendar, #main-menu li a.calendar:hover {
   padding-left: 24px;
-  background-image: url(../images/calendar.png)
+  background-image: url(../images/calendar.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.news, #main-menu li a.news:hover {
   padding-left: 24px;
-  background-image: url(../images/news.png)
+  background-image: url(../images/news.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.documents, #main-menu li a.documents:hover {
   padding-left: 24px;
-  background-image: url(../images/oxygen/document-multiple.png)
+  background-image: url(../images/oxygen/document-multiple.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.wiki, #main-menu li a.wiki:hover {
   padding-left: 24px;
-  background-image: url(../images/page_edit.png)
+  background-image: url(../images/page_edit.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.boards, #main-menu li a.boards:hover {
   padding-left: 24px;
-  background-image: url(../images/comments.png)
+  background-image: url(../images/comments.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.files, #main-menu li a.files:hover {
   padding-left: 24px;
-  background-image: url(../images/oxygen/package-x-generic.png)
+  background-image: url(../images/oxygen/package-x-generic.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.repository, #main-menu li a.repository:hover {
   padding-left: 24px;
-  background-image: url(../images/database_gear.png)
+  background-image: url(../images/database_gear.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
 }
-
 #main-menu li a.settings, #main-menu li a.settings:hover {
   padding-left: 24px;
   background-image: url(../images/project_settings.png);
+  background-repeat: no-repeat;
+  background-position: 6px 50%;
+}
+
+#main-menu > ul > li > a.new-object {
+  padding: 5px 8px 4px 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: var(--oc-white, white);
+}
+
+#main-menu > ul > li > a.new-object:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#main-menu .tabs-buttons {
+  inset-inline-end: -3px;
+  inset-block-start: auto;
+  inset-block-end: 0;
+  transform: none;
 }
 
 /***** Links *****/
