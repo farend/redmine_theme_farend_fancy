@@ -286,11 +286,6 @@ tr.priority-lowest a {
   word-wrap: break-word;
 }
 
-.issue .next-prev-links.contextual .pagination li {
-  background: rgba(var(--oc-white-rgb, 255, 255, 255), 0.8);
-  border: 1px solid var(--oc-gray-4, #ced4da);
-}
-
 /* proportional でない場合にフォントを変更 */
 body:not(.textarea-proportional) input[type="text"], body:not(.textarea-proportional) textarea.wiki-edit {
   font-family: "Osaka-Mono", "MS Gothic", monospace;
