@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
 }
 
 #content h1, #content h2, #content h3, #content h4 {
-  color: var(--oc-gray-9, #212529); /* Initial value is fallback for Redmine < 7.0 */
+  color: var(--oc-gray-9, #212529);
 }
 
 #header {
@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
   background: linear-gradient(#4f68b5, #455b9d, #455b9d); /* HSV(222, 50, 76) -> (222, 50, 68) -> (222, 50, 68) */
 }
 
-/* Maintain original header/main-menu appearance after header redesign (redmine.org/issues/43937) */
+/* ヘッダー再設計後(redmine.org/issues/43937)も従来のヘッダー/メインメニュー表示を維持 */
 
 body #header, body.has-main-menu #header {
   padding-block-end: 10px;
