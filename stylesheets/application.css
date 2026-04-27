@@ -392,24 +392,6 @@ div.issue .next-prev-links {
   color:#666;
 }
 
-div#issue_tree .contextual a[href*="/issues/new"] {
-    background-image: url("../images/ticket_add.png");
-    background-position: 0 50%;
-    background-repeat: no-repeat;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-top: 2px;
-}
-
-div#relations .contextual a {
-    background-image: url("../images/add.png");
-    background-position: 0 50%;
-    background-repeat: no-repeat;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-top: 2px;
-}
-
 div#activity dd span.description, #search-results dd span.description {
   color: var(--oc-gray-7, #495057);
 }
