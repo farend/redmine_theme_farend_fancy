@@ -53,3 +53,8 @@ git clone -b redmine5.1 https://github.com/farend/redmine_theme_farend_fancy.git
 Redmineの管理画面で新しいテーマを利用する設定を行います。
 
 「管理」→「設定」→「表示」画面内の項目「テーマ」で「Fare fancy」を選択、画面最下部の「保存」ボタンをクリックしてください。
+
+## ライセンス
+
+Silk Icons by Mark James (https://github.com/markjames/famfamfam-silk-icons)  
+licensed under the Creative Commons Attribution 2.5 License; https://creativecommons.org/licenses/by/2.5/

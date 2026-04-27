@@ -362,10 +362,15 @@ tr.priority-lowest a {
   word-wrap: break-word;
 }
 
-.issue .contextual {
+.issue .contextual:not(.next-prev-links) {
   margin: 0;
   padding: 2px 3px;
   border-radius: 3px;
+  background: rgba(var(--oc-white-rgb, 255, 255, 255), 0.8);
+  border: 1px solid var(--oc-gray-4, #ced4da);
+}
+
+.issue .next-prev-links .pagination li {
   background: rgba(var(--oc-white-rgb, 255, 255, 255), 0.8);
   border: 1px solid var(--oc-gray-4, #ced4da);
 }
@@ -385,24 +390,6 @@ div.issue div.subject p {
 
 div.issue .next-prev-links {
   color:#666;
-}
-
-div#issue_tree .contextual a[href*="/issues/new"] {
-    background-image: url("../images/ticket_add.png");
-    background-position: 0 50%;
-    background-repeat: no-repeat;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-top: 2px;
-}
-
-div#relations .contextual a {
-    background-image: url("../images/add.png");
-    background-position: 0 50%;
-    background-repeat: no-repeat;
-    padding-bottom: 3px;
-    padding-left: 20px;
-    padding-top: 2px;
 }
 
 div#activity dd span.description, #search-results dd span.description {
