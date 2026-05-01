@@ -29,8 +29,8 @@ h1, h2, h3, h4 {
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
 }
 
-#content h1, h2, h3, h4 {
-  color: var(--oc-gray-9, #212529); /* Initial value is fallbak for Redmine < 7.0 */
+#content h1, #content h2, #content h3, #content h4 {
+  color: var(--oc-gray-9, #212529);
 }
 
 #main-menu li a, #main-menu li a:hover, #main-menu li a:active, #main-menu li a.selected, #main-menu li a.selected:hover {
