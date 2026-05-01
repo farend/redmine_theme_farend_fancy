@@ -34,18 +34,12 @@ h1, h2, h3, h4 {
 }
 
 #main-menu li a, #main-menu li a:hover, #main-menu li a:active, #main-menu li a.selected, #main-menu li a.selected:hover {
-  padding: 5px 8px 4px 8px;
   background-position: 6px 50%;
   background-repeat: no-repeat;
-  font-size: 0.750rem;
-  font-weight: normal;
-  border-radius: 3px 3px 0px 0px;
 }
 
 #main-menu li a.selected, #main-menu li a.selected:hover {
-  font-weight: bold;
   color: var(--oc-gray-9, #212529);
-  box-shadow: 3px -2px 2px rgba(0, 0, 0, 0.1);
 }
 
 #main-menu li a.overview, #main-menu li a.overview:hover {
